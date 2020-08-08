@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNumberInEquality]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestNumberEquality(failed)">
+    <classes>
+      <class name="cairo360.cairo360.Register">
+        <methods>
+          <include name="Billingdetails"/>
+          <include name="ConfirmOrder"/>
+          <include name="openbrowser"/>
+          <include name="DeliveryMethod"/>
+          <include name="afterTest"/>
+          <include name="PaymentMethod"/>
+        </methods>
+      </class> <!-- cairo360.cairo360.Register -->
+    </classes>
+  </test> <!-- TestNumberEquality(failed) -->
+</suite> <!-- Failed suite [TestNumberInEquality] -->

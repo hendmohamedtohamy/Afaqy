@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [addtocart]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="NubmersEqulaity(failed)">
+    <classes>
+      <class name="cairo360.cairo360.Register">
+        <methods>
+          <include name="ConfirmOrder"/>
+          <include name="openbrowser"/>
+          <include name="DeliveryMethod"/>
+          <include name="afterTest"/>
+          <include name="PaymentMethod"/>
+        </methods>
+      </class> <!-- cairo360.cairo360.Register -->
+    </classes>
+  </test> <!-- NubmersEqulaity(failed) -->
+</suite> <!-- Failed suite [addtocart] -->
